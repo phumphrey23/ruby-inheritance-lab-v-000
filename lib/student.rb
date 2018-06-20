@@ -10,4 +10,8 @@ class Student < User
     @knowledge << fact
   end
 
+  def knowledge
+    @knowledge
+  end
+
 end
